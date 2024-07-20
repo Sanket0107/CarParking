@@ -10,7 +10,7 @@ import com.parkingLot.car_parking_system.exception.CustomException;
 @Component
 public class ParkingLot {
 	
-	private List<Floor> floors;
+private List<Floor> floors;
 	
     private CostStrategy costStrategy;
     
@@ -19,7 +19,7 @@ public class ParkingLot {
     private Map<Integer, VehicleSpace> tokenSpaceMap;
     
     private int nextToken;
-
+ 	private int new1 ;
 	public ParkingLot(List<Floor> floors, CostStrategy costStrategy, Map<String, Integer> vehicleTokenMap,
 			Map<Integer, VehicleSpace> tokenSpaceMap, int nextToken) {
 		super();
